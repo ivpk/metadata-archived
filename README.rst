@@ -65,8 +65,9 @@ Lentelės pavyzdys:
 +----+-------------------+-----------------+-----------+-------------+------------------+-------------------+-------------------+-------------------+-------------+-------------+
 
 
-``A`` stulpelyje esantys laukai yra kontekstiniai, tai reiškia, kad pavyzdžiui **DCAT URI** esantis 3-ioje eilutėje yra
-paketo DCAT URI, tas pats laukas 5-oje eilutėje yra Resurso **DCAT URI**. Žemiau rasite visų laukų sąrašą ir jų
+``A`` stulpelyje esantys laukai yra kontekstiniai, tai reiškia, kad pavyzdžiui
+**DCAT URI** esantis 3-ioje eilutėje yra paketo DCAT URI, tas pats laukas 5-oje
+eilutėje yra Resurso **DCAT URI**. Žemiau rasite visų laukų sąrašą ir jų
 konteksto ribas::
 
   Tiekėjas
@@ -86,14 +87,17 @@ Tiekėjas
   Įstaigos, kuri teikia duomenis pavadinimas.
 
 Paketas
-  Duomenų paketas, DCAT ontologijoje vadinamas `dcat:Dataset`_, CKAN terminologijoje taip pat vadinamas Dataset_.
+  Duomenų paketas, DCAT ontologijoje vadinamas `dcat:Dataset`_, CKAN
+  terminologijoje taip pat vadinamas Dataset_.
 
 Resursas
-  Duomenų rinkmena, konkretus CSV failas, lentelė ar kita esybė, DCAT ontologijoje vadinamas `dcat:Distribution`_, CKAN terminologijoje
-  vadinamas Resource_.
+  Duomenų rinkmena, konkretus CSV failas, lentelė ar kita esybė, DCAT
+  ontologijoje vadinamas `dcat:Distribution`_, CKAN terminologijoje vadinamas
+  Resource_.
 
 DCAT URI
-  Nuoroda į paketą arba resursą priklausomai nuo konteksto, kuriame šis laukyas yra panaudotas.
+  Nuoroda į paketą arba resursą priklausomai nuo konteksto, kuriame šis laukyas
+  yra panaudotas.
 
 Formatas
   Nurodo kokiu formatu duomenys yra saugomi. Galimi variantai:
@@ -131,11 +135,11 @@ Klasė
 
 Šaltinis
   Šaltinis objekto klasės tikslus adresas, taip kaip pateikta šaltinio duomenų
-  struktūroje. Jei šaltinis yra releacinė duomenų bazė, tuomet šaltinio
+  struktūroje. Jei šaltinis yra reliacinė duomenų bazė, tuomet šaltinio
   pavadinimas turi būti lentelės pavadinimas, jei šaltinis yra XML arba HTML
   failas, tada šaltinis turi būti XPath kelias iki duomenų.
 
-  Turint tikslų šaltinio pavadiimą, duomenys gali būti patikrinami
+  Turint tikslų šaltinio pavadinimą, duomenys gali būti patikrinami
   automatizuotai, tada pagal nurodytą klasę susiejami su kitais duomenimis iš
   kitų šaltinių.
 
@@ -162,8 +166,8 @@ Schema
 
   Nuoroda
     Tais atvejais, kai laukas rodo į kitą klasę, sąsaja su objektu į kurį
-    rodoma žinoma paga globalų objekto identifikatorių, tačiau dažniausiai yra
-    naudojama ne globalūs, o lokalūs objekto identifikatoriai. Tokiu atveju,
+    rodoma žinoma pagal globalų objekto identifikatorių, tačiau dažniausiai yra
+    naudojami ne globalūs, o lokalūs objekto identifikatoriai. Tokiu atveju,
     kai naudojamas lokalus objekto identifikatorius, nuoroda turi būti lauko
     pavadinimas iš klasės į kurią rodoma.
 
@@ -179,7 +183,7 @@ Schema
 
   Tas pats kaip
     Ryšys su savybe iš žinomo išorinio žodyno, šio laukė prasmė atitinka
-    `owl:sameAs`_ reikšmę ir šio lauko pagalba vidinį schemos žodyna galima
+    `owl:sameAs`_ reikšmę ir šio lauko pagalba vidinį schemos žodyną galima
     susieti su `išoriniais žinomais žodynais`_.
 
   Brandos lygis
@@ -208,8 +212,8 @@ Schema
     |     | žodynais.                                                               |
     +-----+-------------------------------------------------------------------------+
 
-    Negaliam suteikti didesnio brandos lygio balo, jei netenkinami vis žemiau
-    sančių balų reikalavimai.
+    Negalima suteikti didesnio brandos lygio balo, jei netenkinami vis žemiau
+    esančių balų reikalavimai.
 
     Lietuvos atvirų duomenų schemos žodynas yra „Žodynas“ lakšte pateiktas
     žodynas.
@@ -265,12 +269,12 @@ užtenka bent jau susitarti vienodus pavadinimus, naudojamus skirtinguose
 duomenų šaltiniuose, o hierarchiją bus galima sutvarkyti vėliau, turint
 pakankamai duomenų apie klases ir jų savybes.
 
-Lakše „Inventorizacija“, atliekamas susiejimas su LADŽ, kai jau susiejimas
+Lakšte „Inventorizacija“, atliekamas susiejimas su LADŽ, kai jau susiejimas
 padarytas, klasių hierarchiją galima pertvarkyti, nedarant įtakos
 inventorizacijai.
 
 Žinoma, jei keičiamas pavadinimas žodyne, reikėtų atitinkamai pakeisti
-pavadinimus ir inventoriazcijos lakštuose arba galima nurodyti, kad tam tikras
+pavadinimus ir inventorizacijos lakštuose arba galima nurodyti, kad tam tikras
 pavadinimas buvo pakeistas į naują pavadinimą ir senasis pavadinimas yra
 nebenaudotinas.
 
@@ -363,7 +367,7 @@ Schema
   Klasės laukų schema.
 
   Pavadinimas
-    Lauko pavadinimas iš „Žodyans“ lakšto.
+    Lauko pavadinimas iš „Žodynas“ lakšto.
 
   Klasė
     Laukai gali būti skaliariniai ir rodantys į kitus objektus. Jei lauko
@@ -392,15 +396,15 @@ Schema
       Duomuo nėra labai svarbus, galėtų būti panaudotas kuriant papildomas
       funkcijas.
 
-    Pradžia ir Pabaiga
-      Laikotarpis, kada šis duomuo buvo reikalingas projektui.
+  Pradžia ir Pabaiga
+    Laikotarpis, kada šis duomuo buvo reikalingas projektui.
 
-      Jei tarkim tas pats laukas projektui iš pradžių buvo nelabai reikalingas,
-      o po to tapo labai reikalingas, tada tas pats laukas turėtų turėti du
-      įrašus su skirtingais prioritetais ir pradžios ir pabaigos datomis.
+    Jei tarkim tas pats laukas projektui iš pradžių buvo nelabai reikalingas,
+    o po to tapo labai reikalingas, tada tas pats laukas turėtų turėti du
+    įrašus su skirtingais prioritetais ir pradžios ir pabaigos datomis.
 
-      Jei laukas nebenaudojamas projektą, turi būti nurodoma pabaigos data, bet
-      pats laukas turi būti paliktas lentelėje.
+    Jei laukas nebenaudojamas projektą, turi būti nurodoma pabaigos data, bet
+    pats laukas turi būti paliktas lentelėje.
 
 
 .. _`dcat:Dataset`: https://www.w3.org/TR/vocab-dcat/#class-dataset
