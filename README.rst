@@ -191,24 +191,24 @@ Schema
     tiek išplėsta įvertinant tarinio schemos žodyno naudojimą.
 
     +-----+-------------------------------------------------------------------------+
-    | 0.0 | Duomenys nekaupiami, viešai neprieinami arba jų laisvą naudojamą        |
+    | 0   | Duomenys nekaupiami, viešai neprieinami arba jų laisvą naudojamą        |
     |     | riboja licencija.                                                       |
     +-----+-------------------------------------------------------------------------+
-    | 1.0 | Duomenys teikiami pagal atvirą licenciją, tačiau jie yra                |
+    | 1   | Duomenys teikiami pagal atvirą licenciją, tačiau jie yra                |
     |     | nestruktūruoti.                                                         |
     +-----+-------------------------------------------------------------------------+
-    | 2.0 | Duomenys yra struktūruoti, tačiau pateikti naudojant uždarus            |
+    | 2   | Duomenys yra struktūruoti, tačiau pateikti naudojant uždarus            |
     |     | ar nestandartizuotus formatus.                                          |
     +-----+-------------------------------------------------------------------------+
-    | 3.0 | Duomenys yra struktūruoti ir teikiami atvirais formatais.               |
+    | 3   | Duomenys yra struktūruoti ir teikiami atvirais formatais.               |
     +-----+-------------------------------------------------------------------------+
     | 3.5 | Duomenys susieti naudojant lokalius identifikatorius.                   |
     +-----+-------------------------------------------------------------------------+
-    | 4.0 | Duomenys susieti naudojant globalius identifikatorius.                  |
+    | 4   | Duomenys susieti naudojant globalius identifikatorius.                  |
     +-----+-------------------------------------------------------------------------+
     | 4.5 | Duomenų schema yra susieta su Lietuvos atvirų duomenų schemos žodynu.   |
     +-----+-------------------------------------------------------------------------+
-    | 5.0 | Duomenų schema yra susieta su išoriniais ir plačiai naudojamais         |
+    | 5   | Duomenų schema yra susieta su išoriniais ir plačiai naudojamais         |
     |     | žodynais.                                                               |
     +-----+-------------------------------------------------------------------------+
 
