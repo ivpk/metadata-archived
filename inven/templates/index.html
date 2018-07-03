@@ -1,0 +1,43 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="lt">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Atvirų duomenų inventorizacija (prototipas)</title>
+  </head>
+  <body>
+
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <div class="jumbotron">
+            <h3>Duomenų inventorizacija</h3>
+            <p class="lead">Įkelkite užpildytą skaičiuoklės failą naudodami <a href="#">šabloną</a>.</p>
+            <div class="custom-file">
+              <input type="file" class="custom-file-input" id="customFile", lang="lt">
+              <label class="custom-file-label" for="customFile">Pasirinkite skaičiuoklės failą</label>
+            </div>
+            <hr/>
+            <a class="btn btn-primary btn-lg" href="#" role="button">Įkelti</a>
+          </div>
+        </div>
+        <div class="col">
+          <div class="jumbotron">
+            <h3>Prašymai gauti duomenis</h3>
+            <p class="lead">Įkelkite užpildytą skaičiuoklės failą naudodami <a href="#">šabloną</a>.</p>
+            <div class="custom-file">
+              <input type="file" class="custom-file-input" id="customFile", lang="lt">
+              <label class="custom-file-label" for="customFile">Pasirinkite skaičiuoklės failą</label>
+            </div>
+            <hr/>
+            <a class="btn btn-primary btn-lg" href="#" role="button">Įkelti</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="{% static 'inven.bundle.js' %}"></script>
+  </body>
+</html>
