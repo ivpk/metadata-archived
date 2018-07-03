@@ -23,9 +23,12 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = '@bfcv60xsbvx0tw&7$2ejstn*5m!b)1=(%bs)pphs2)bke_nv)'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'atviriduomenys.lt',
+    'www.atviriduomenys.lt',
+]
 
 
 # Application definition
@@ -116,3 +119,9 @@ STATICFILES_DIRS = [
 
 STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'var', 'www', 'static')
+
+
+try:
+    from .localsettings import *  # noqa
+except ImportError:
+    pass
