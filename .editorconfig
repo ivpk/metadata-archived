@@ -1,0 +1,14 @@
+# http://editorconfig.org/
+
+root = true
+
+[*.{py,js,html,xml}]
+charset = utf-8
+indent_style = space
+end_of_line = lf
+insert_final_newline = true
+indent_size = 4
+max_line_length = 120
+
+[*.{js,json,html,xml}]
+indent_size = 2
